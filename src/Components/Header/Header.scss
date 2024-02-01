@@ -1,0 +1,119 @@
+.header {
+  display: flex;
+  height: 255px;
+
+  &_list {
+    display: flex;
+    margin-left: 210px;
+    gap: 20px;
+
+    &_items {
+      margin-top: 50px;
+      margin-left: 10px;
+    }
+
+    &_container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.header_gradient_first {
+  position: absolute;
+  top: -1300px;
+  left: -700px;
+  transform: rotate(-45deg);
+  width: 850px;
+  height: 2100px;
+  border-radius: 2147.329px;
+  background: radial-gradient(50% 50% at 50% 50%, #22FF60 0%, rgba(65, 34, 255, 0.00) 100%);
+  filter: blur(250px);
+}
+
+.header_gradient_second {
+  position: absolute;
+  top: -300px;
+  left: 1300px;
+  transform: rotate(-45deg);
+  width: 850px;
+  height: 2100px;
+  border-radius: 2147.329px;
+  background: radial-gradient(50% 50% at 50% 50%, #6b2a46 0%, rgba(65, 34, 255, 0.00) 100%);
+  filter: blur(250px);
+}
+
+.header_logo_container {
+  display: flex;
+  height: 114px;
+
+  .logo {
+    margin-top: 40px;
+  }
+
+  .header_name {
+    margin-left: 14px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+
+    &_item {
+      flex-shrink: 0;
+      height: 17.57px;
+    }
+  }
+}
+
+.header_list_item {
+  padding-bottom: 20px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+
+.lang {
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+
+.header_line {
+  z-index: 12312313;
+  width: 1px;
+  height: 550px;
+  opacity: 20%;
+  background-color: white;
+}
+
+.header_image {
+  z-index: 2;
+  margin-top: 40px;
+}
+
+.header_square_container {
+  position: absolute;
+  top: 60px;
+  right: 200px;
+  width: 600px;
+  height: 972px;
+  border-radius: 50%;
+  opacity: 20%;
+  transform: rotate(30deg);
+  border: 1px solid white;
+  overflow: hidden;
+}

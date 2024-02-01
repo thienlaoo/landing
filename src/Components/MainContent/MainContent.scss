@@ -1,0 +1,74 @@
+@import "../../fonts/AngleciaProDisplay-Regular.scss";
+
+.mainContent_title {
+  color: white;
+  font-feature-settings: 'dlig' on, 'salt' on;
+  font-family: "Anglecia Pro Display";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.mainContent_container {
+  align-items: center;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainContent_line {
+  position: relative;
+  margin: 0 -60px;
+  height: 1px;
+  background-color: white;
+  opacity: 20%;
+  z-index: 2;
+}
+
+.mainContent_media {
+  margin-top: 40px;
+}
+
+.mainContent_text {
+  margin-top: 20px;
+  z-index: 2;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.mainContent_additional_text {
+  margin-right: 15px;
+  color: white;
+  font-family: Anglecia Pro;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0.02em;
+  text-align: right;
+
+}
+
+.mainContent_button {
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 64px;
+  display: flex;
+  gap: 14px;
+  padding: 20px 40px;
+  border-radius: 100px;
+  background-color: #6EFFB7;
+  letter-spacing: 3px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}

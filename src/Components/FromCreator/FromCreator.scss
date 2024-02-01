@@ -1,0 +1,108 @@
+.creator_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 400px;
+  align-items: start;
+  position: relative;
+}
+
+.creator_founder {
+  writing-mode: vertical-rl;
+  text-align: left;
+  white-space: nowrap;
+  margin-top: 40px;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  color: white;
+}
+
+.creator_line {
+  position: absolute;
+  z-index: 2;
+  margin: 0 -60px;
+  height: 1px;
+  color: transparent;
+  opacity: 20%;
+  border-style: dashed;
+  border-color: transparent;
+  border-width: 1px;
+  border-image: linear-gradient(90deg, white 20%, transparent 20%, transparent 40%, white 40%) 1;
+}
+
+
+.creator_title {
+  margin-bottom: 40px;
+  font-family: Anglecia Pro Title;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: white;
+}
+.creator_gradient_container {
+  position: absolute;
+  top: 2000px;
+  left: 100px;
+  width: 850px;
+  height: 100%;
+}
+
+
+.creator_text {
+  font-family: Raleway;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  color: white;
+
+  &_container {
+    margin-right: 200px;
+  }
+
+  &_small {
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    color: white;
+  }
+
+  &_name {
+    font-family: Anglecia Pro Text;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: white;
+  }
+}
+
+.common_margin {
+  margin-bottom: 20px;
+}
+
+.spec_margin {
+  margin-bottom: 40px;
+}
+
+.creator_gradient {
+  width: 100%;
+  height: 100%;
+  border-radius: 2147.329px;
+  background: radial-gradient(50% 50% at 50% 50%, #22FF60 0%, rgba(65, 34, 255, 0.00) 100%);
+  filter: blur(250px);
+}
+
+
+

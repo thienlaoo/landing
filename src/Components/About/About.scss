@@ -1,0 +1,40 @@
+.about_content {
+  margin-top: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_title {
+  font-family: Anglecia Pro Title;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0.02em;
+  color: white;
+}
+
+.about_description {
+  margin-bottom: 20px;
+  font-family: Raleway;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0.07em;
+  color: white;
+
+}
+
+.about_text {
+  transform: rotate(-90deg);
+  transform-origin: right top;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  color: white;
+  &_container {
+    display: flex;
+  }
+
+}
